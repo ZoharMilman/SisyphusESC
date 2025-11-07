@@ -1,0 +1,26 @@
+# KiCad backup files
+*.bak
+*.bck
+*.sch-bak
+*.kicad_pcb-bak
+*.kicad_prl
+*.kicad_sch-bak
+
+# DrawIO files
+*.bkp
+*.dtmp
+
+
+# Generated libraries
+*-cache.lib
+*-rescue.lib
+
+# Output and build files
+outputs/
+build/
+*.zip
+*.tar.gz
+
+# System files
+.DS_Store
+Thumbs.db

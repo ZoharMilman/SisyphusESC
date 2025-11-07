@@ -1,0 +1,87 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.8 Chrome/140.0.7339.240 Electron/38.4.0 Safari/537.36" version="28.2.8">
+  <diagram name="Page-1" id="arOiLJdzyk0Pc8zL_VKP">
+    <mxGraphModel dx="1833" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nlyOwDyUe2mXXMdn440G-33" value="CONTROL &amp;amp; COMMUNICATION" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;gradientColor=none;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="1550" y="370" width="700" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="nlyOwDyUe2mXXMdn440G-2" value="POWER HANDLING FOR 24V AND 10A" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;gradientColor=none;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="-100" y="410.14" width="980" height="309.86" as="geometry" />
+        </mxCell>
+        <mxCell id="nlyOwDyUe2mXXMdn440G-3" value="6S BATTERY&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.miscellaneous.batteryStack;" parent="1" vertex="1">
+          <mxGeometry x="-300" y="480" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nlyOwDyUe2mXXMdn440G-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nlyOwDyUe2mXXMdn440G-7" target="nlyOwDyUe2mXXMdn440G-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nlyOwDyUe2mXXMdn440G-7" value="REVERSE POLARITY PROTECTION" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="285" y="500" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nlyOwDyUe2mXXMdn440G-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nlyOwDyUe2mXXMdn440G-8" target="nlyOwDyUe2mXXMdn440G-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nlyOwDyUe2mXXMdn440G-8" value="BUCK CONVERTER" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="440" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fChvT317xJLEpsUP7uPq-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="nlyOwDyUe2mXXMdn440G-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fChvT317xJLEpsUP7uPq-18" value="3.3V STABILIZED" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fChvT317xJLEpsUP7uPq-17">
+          <mxGeometry x="0.0966" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nlyOwDyUe2mXXMdn440G-10" value="3.3V LOGIC VOLTAGE STABILIZER" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="740" y="440" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nlyOwDyUe2mXXMdn440G-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nlyOwDyUe2mXXMdn440G-18" target="nlyOwDyUe2mXXMdn440G-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nlyOwDyUe2mXXMdn440G-18" value="TVS ESD PROTECTION" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="500" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fChvT317xJLEpsUP7uPq-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nlyOwDyUe2mXXMdn440G-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1060" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fChvT317xJLEpsUP7uPq-20" value="24V DC RAIL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fChvT317xJLEpsUP7uPq-19">
+          <mxGeometry x="0.0868" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nlyOwDyUe2mXXMdn440G-27" value="CURRENT SENSING" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="500" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nlyOwDyUe2mXXMdn440G-30" value="VOLTAGE DIVIDER FOR SENSING BATTERY VOLTAGE" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="590" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nlyOwDyUe2mXXMdn440G-1" value="STM32" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1840" y="450" width="120" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="nlyOwDyUe2mXXMdn440G-36" value="MOTOR DRIVER" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;gradientColor=none;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="2290" y="370" width="700" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="fChvT317xJLEpsUP7uPq-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fChvT317xJLEpsUP7uPq-4" target="nlyOwDyUe2mXXMdn440G-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fChvT317xJLEpsUP7uPq-4" value="FUSE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="500" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fChvT317xJLEpsUP7uPq-6" value="CANBUS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="560" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fChvT317xJLEpsUP7uPq-7" value="USBC DEBUG AND FLASHING" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="650" width="110" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
